@@ -1,0 +1,10 @@
+{{ define "hero" }}{{- partial "services_persons/hero" . -}}{{ end }}
+{{ define
+  "main"
+}}
+  {{ partial "services_persons/schema" . }}
+  {{ partial
+    "services_persons/blocks" .
+  }}
+  {{ partial "services_persons/container" . }}
+{{ end }}

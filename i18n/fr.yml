@@ -1,0 +1,8 @@
+services_persons:
+  all: Toutes les personnes du service
+  discover: Découvrir la personne du service
+  latest: Dernière personnes du service
+  more: Découvrir plus de personnes du service
+  title:
+    one: Personne du service
+    other: Personnes du services

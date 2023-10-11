@@ -1,0 +1,8 @@
+services_persons:
+  all: All service persons
+  latest: Latest service persons
+  discover: Discover the service person
+  more: Discover more service persons
+  title:
+    one: Service person
+    other: Service persons

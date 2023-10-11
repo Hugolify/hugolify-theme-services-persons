@@ -1,0 +1,24 @@
+module:
+  mounts:
+    - source: archetypes
+      target: archetypes
+    - source: assets
+      target: assets
+    - source: content
+      target: content
+    - source: i18n
+      target: i18n
+    - source: layouts
+      target: layouts
+
+params:
+  persons:
+    services_persons:
+      desktop: "50x50"
+      mobile: "50x50"
+
+# Default
+permalinks:
+  services_persons: /services/persons/:slug/
+taxonomies:
+  services_persons: services_persons
