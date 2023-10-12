@@ -1,15 +1,10 @@
 {{ if .Params.services_persons }}
   <p class="services_persons">
-    {{- range $index, $concerned := .Params.services_persons -}}
-      {{ if gt $index
-        0
-      }}
-        ,
-      {{ end }}
-      {{- $person := where (where site.Pages "Section" "persons" )
-        "File.BaseFileName" "eq" .
-      -}}
-      {{ range $person }}{{ .Title }}{{ end }}
+    {{- range $index, $persons := .GetTerms "services_persons" -}}
+      {{ if gt $index 0}}, {{ end }}
+      {{- with partial "func/GetRealPerson" . -}}
+        {{ .Title }}
+      {{- end -}}
     {{- end -}}
   </p>
 {{ end }}
