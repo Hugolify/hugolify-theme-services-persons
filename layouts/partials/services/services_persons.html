@@ -1,5 +1,7 @@
-{{ range .GetTerms "services_persons" }}
-  {{ partial "commons/person.html" (dict
-    "person" . "show_btn" false )
-  }}
+{{ range first 1 (.GetTerms "services_persons") }}
+  {{ partial "commons/person.html" (dict 
+    "person" . 
+    "show_description" false 
+    "show_contacts" true
+    ) }}
 {{ end }}
