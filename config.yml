@@ -14,8 +14,8 @@ module:
 params:
   persons:
     services_persons:
-      desktop: "50x50"
-      mobile: "50x50"
+      desktop: '50x50'
+      mobile: '50x50'
 
 # Default
 permalinks:
