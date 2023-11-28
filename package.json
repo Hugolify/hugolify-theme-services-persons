@@ -20,5 +20,8 @@
   "license": "MIT",
   "dependencies": {
     "prettier-plugin-go-template": "^0.0.15"
+  },
+  "devDependencies": {
+    "@hugolify/prettier-config": "^0.3.1"
   }
 }
