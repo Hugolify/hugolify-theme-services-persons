@@ -2,4 +2,4 @@
 {{ if reflect.IsMap . }}
   {{ $dict = (dict "pages" .pages "abovethefold" .abovethefold) }}
 {{ end }}
-{{ partial "commons/items" $dict }}
+{{ partial "commons/items.html" $dict }}

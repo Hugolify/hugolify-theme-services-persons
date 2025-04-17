@@ -3,7 +3,7 @@
     {{- range $index, $persons := .GetTerms "services_persons" -}}
       {{ if gt $index 0}}, {{ end }}
       {{- with partial "func/GetRealPerson" . -}}
-        {{ partial "func/PrepareHTML" .Title }}
+        {{ partial "func/PrepareHTML.html" .Title }}
       {{- end -}}
     {{- end -}}
   </p>
