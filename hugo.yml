@@ -11,6 +11,7 @@ module:
     - source: layouts
       target: layouts
 
+# Images
 params:
   persons:
     services_persons:
@@ -19,6 +20,9 @@ params:
 
 # Default
 permalinks:
-  services_persons: /services/persons/:slug/
+  taxonomy:
+    services_persons: /services/persons/
+  term:
+    services_persons: /services/persons/:slug/
 taxonomies:
   services_persons: services_persons
