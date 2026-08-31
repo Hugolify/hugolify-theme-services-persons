@@ -25,4 +25,4 @@ permalinks:
   term:
     services_persons: /services/persons/:slug/
 taxonomies:
-  services_persons: services_persons
+  services_person: services_persons
