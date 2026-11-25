@@ -1,0 +1,12 @@
+/* css/modules/services-persons.css: hugolify-theme-services-persons entry point */
+
+/* Tokens */
+@import '../tokens/services-persons.css';
+
+/* Components */
+@import '../components/services-person.css';
+@import '../components/services-persons.css';
+
+/* Pages */
+@import '../pages/services-person.css';
+@import '../pages/services-persons.css';

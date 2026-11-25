@@ -1,0 +1,11 @@
+/* components/services-person.css */
+/*
+ * Usage: <article class="item services_person">
+ */
+@layer components {
+  .services_person {
+    .btn {
+      display: none;
+    }
+  }
+}
